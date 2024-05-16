@@ -20,19 +20,17 @@
   <!-- conecion con la topologias -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital
-,wght@0,400;0,700;1,400&family=Lobster&family=Noto+Serif:ital,wght@0,100..900;
-1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto+Mono:ital,wght@0
-,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- conexion a css -->
-  <link rel="stylesheet" href="/copynaughtdog/css/body.css">
-  <link rel="stylesheet" href="/copynaughtdog/css/Responsive.css">
-  <link rel="stylesheet" href="/copynaughtdog/css/footer.css">
-  <link rel="stylesheet" href="/copynaughtdog/css/nav.css">
-  <link rel="stylesheet" href="/copynaughtdog/css/style.css">
-  <link rel="stylesheet" href="/copynaughtdog/css/imgcode.css">
-  <link rel="stylesheet" href="/copynaughtdog/css_2/titulos.css">
+  <link rel="stylesheet" href="./css/body.css">
+  <link rel="stylesheet" href="./css/Responsive.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/imgcode.css">
+  <link rel="stylesheet" href="./css_2/texto.css">
+  <link rel="stylesheet" href="./css_2/cuadrado.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -46,17 +44,16 @@
   </style>
 
 </head>
-
-<div class="wrapper">
-
   <body>
+    <div class="wrapper">
+    <script src="./javascript/confignaugt.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
 
     <header class="cabeza">
       <div class="logo-container">
-        <img class="logo" src="/copynaughtdog/IMG/NaughtyDog_Logo.png" alt="Ellie">
+        <img class="logo" src="./IMG/NaughtyDog_Logo.png" alt="Ellie">
         <div class="mobile-menu">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list"
             viewBox="0 0 16 16">
@@ -124,21 +121,42 @@
         </ul>
       </nav>
     </header>
-    <script src="/copynaughtdog/javascript/confignaugt.js"></script>
 
-    <br><br><br><br>
-    
-
-    
-    <div class="container">
-      <p class="titulo" style="text-transform:uppercase;">
-        celebrating the launch of
-        the last of us part 1
-      </p>
-      <p class="titulo1">A thank you the studio</p>
-      <img class="imgfle" src="/copynaughtdog/IMG/flecha.png" alt="flecha">
+<!-- inicio parte Eliza -->
+<div class="contenedor">
+  <div id="myCarousel" class="carousel_t carousel slide mb-6" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="bd-placeholder-img" width="100%" height="100%" src="./imagenes nuevas/fon1.png" alt="">
     </div>
+    <div class="carousel-item">
+      <img class="bd-placeholder-img" width="100%" height="100%" src="./imagenes nuevas/fon2.png" alt="">
+    </div>
+    <div class="carousel-item">
+      <img class="bd-placeholder-img" width="100%" height="100%" src="./IMG/fondo.png" alt="">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+     <div>
+      <p class="titulo anton-regular esp_1"> The Last of Us Part II Remastered Coming to PS5 on January 19, 2024</p>
+      <p class="titulo_p anton-regular esp_1">Re-experience, or discover for the first time, Ellie and Abby’s emotional journey with the definitive way to play The Last of Us Part II.</p>
+      <img class="imgfle" src="./IMG/flecha.png" alt="flecha">
+    </div>
+  </div>
+
     <br><br><br><br>
+<!-- fin parte Eliza -->
 
     <h1 class="titulo1">LATEST</h1>
     <h1 class="titulo2">NEWS</h1>
@@ -146,43 +164,41 @@
   
     <div class="lastnews">
 
-      <div class="info1">
-        <div class="part3">
-          <div><img class="imagencom" src="/copynaughtdog/IMG/info1part1.png" alt=""></div>
-
-          <div class="fecha">
-            <h3 class="text1">FAITH RIES /</h3>
-            <h3 class="text2">JANUARY 25, 2024</h3>
+        <div class="info1">
+            <div class="part3 txt1">
+              <div class="cuadrado-gris"></div>
+              <div class="abajo py-4 px-2"><img class="imagencom" src="./IMG/info1part1.png" alt=""></div>
+              <div class="fecha pb-md-4 py-4">
+                <h3 class="text1 fs-4">FAITH RIES /</h3>
+                <h3 class="text2 fs-4">JANUARY 25, 2024</h3>
+              </div> 
+              <h2 class="anton-regular mb-4 esp_1 txt_1 fs-1 text-g"> PHOTO MODE COLLECTION: THE LAST OF US PART II REMASTERED </h2>
+              <p class="fs-5">We’ve put together a community album of Photo Mode shots to celebrate the release of The Last of Us Part II Remastered and your incredible photography skills.</p>
+            </div>
           </div>
-          <h2> PHOTO MODE COLLECTION: THE LAST OF US PART <br>
-            II REMASTERED</h2>
-          <p>We’ve put together a community <br>
-            album of Photo Mode shots to celebrate the release of The Last of Us
-            <br>Part II Remastered and your incredible photography skills.
-          </p>
-        </div>
-      </div>
 
       <div class="info2">
-        <div class="part3">
-          <div><img class="info2part2" src="/copynaughtdog/IMG/info2part1.png" alt=""></div>
-          <div>
-            <h3 class="text1">JONATHON DORNBUSH /</h3>
-            <h3 class="text2">JANUARY 16, 2024</h3>
+        <div class="part3 ">
+          <div class="cuadrado-gris_2"></div>
+          <div><img class="info2part2" src="./IMG/info2part1.png" alt=""></div>
+          <div class="pb-md-3 py-3 ">
+            <h3 class="text1 fs-6 text-sm">JONATHON DORNBUSH /</h3>
+            <h3 class="text2 fs-6 text-sm">JANUARY 16, 2024</h3>
           </div>
-          <h2> DIVE DEEPER INTO NEW THE LAST OF US PART II REMASTERED FEATURES, OUT JAN. 19</h2>
-          <p>Explore new modes, go behind-the-scenes of the development of The
+          <h2 class="anton-regular esp_1 fs-5"> DIVE DEEPER INTO NEW THE LAST OF US PART II REMASTERED FEATURES, OUT JAN. 19</h2>
+          <p class="fs-6 py-5">Explore new modes, go behind-the-scenes of the development of The
             Last of Us Part II, and experience the acclaimed story with PS5
             enhancements.</p>
         </div>
         <div>
           <div class="part3">
-            <div><img class="info2part2" src="/copynaughtdog/IMG/info2part2.png" alt=""></div>
-            <div>
-              <h3 class="text1">NAUGHTY DOG /</h3>
-              <h3 class="text2">DECEMBER 14, 2023</h3>
+            <div class="cuadrado-gris_3"></div>
+            <div><img class="info2part2 py-3" src="./IMG/info2part2.png" alt=""></div>
+            <div class="pb-md-2 ">
+              <h3 class="text1 fs-6 text-sm">NAUGHTY DOG /</h3>
+              <h3 class="text2 fs-6 text-sm">DECEMBER 14, 2023</h3>
             </div>
-            <h2> AN UPDATE ON THE LAST OF US ONLINE</h2>
+            <h2 class="anton-regular esp_1 fs-5"> AN UPDATE ON THE LAST OF US ONLINE</h2>
           </div>
         </div>
       </div>
@@ -193,102 +209,101 @@
 
     <div class="news">
       <div class="part4">
-        <div><img class="infonews" src="/copynaughtdog/imagenes nuevas/info3part1.png" alt=""></div>
-        <div>
-          <h3 class="text1">NAUGHTY DOG /</h3>
-          <h3 class="text2">DECEMBER 11, 2023</h3>
+        <div class="cuadrado-gris_4"></div>
+        <div><img class="infonews" src="./imagenes nuevas/info3part1.png" alt=""></div>
+        <div class="pb-md-3 py-3">
+          <h3 class="text1 fs-6 text-sm">NAUGHTY DOG /</h3>
+          <h3 class="text2 fs-6 text-sm">DECEMBER 11, 2023</h3>
         </div>
-        <h2> NAUGHTY DOG’S FAVORITE GAMES OF 2023</h2>
-        <p>A celebration of some of the games that thrilled and delighted us this year</p>
+        <h2 class="anton-regular esp_1 fs-5"> NAUGHTY DOG’S FAVORITE GAMES OF 2023</h2>
+        <p class="fs-6">A celebration of some of the games that thrilled and delighted us this year</p>
       </div>
 
       <div class="part4">
-        <div><img class="infonews" src="/copynaughtdog/imagenes nuevas/info3part2.png" alt=""></div>
-        <div>
-          <h3 class="text1">JONATHON DORNBUSH /</h3>
-          <h3 class="text2">DECEMBER 5, 2023</h3>
+        <div class="cuadrado-gris_5"></div>
+        <div><img class="infonews" src="./imagenes nuevas/info3part2.png" alt=""></div>
+        <div class="pb-md-3 py-3">
+          <h3 class="text1 fs-6 text-sm">JONATHON DORNBUSH /</h3>
+          <h3 class="text2 fs-6 text-sm">DECEMBER 5, 2023</h3>
         </div>
-        <h2> THE LAST OF US PART II REMASTERED: EXPLORING THE ROGUELIKE SURVIVAL MODE, NO RETURN</h2>
-        <p>Learn about the characters, gameplay twists, and more of Part II Remastered’s brand-new mode.</p>
+        <h2 class="anton-regular esp_1 fs-5"> THE LAST OF US PART II REMASTERED: EXPLORING THE ROGUELIKE SURVIVAL MODE, NO RETURN</h2>
+        <p class="fs-6">Learn about the characters, gameplay twists, and more of Part II Remastered’s brand-new mode.</p>
       </div>
 
       <div class="part4">
-        <div><img class="infonews" src="/copynaughtdog/imagenes nuevas/info3part3.png" alt=""></div>
-        <div>
-          <h3 class="text1">JONATHON DORNBUSH /</h3>
-          <h3 class="text2">NOVEMBER 17, 2023</h3>
+        <div class="cuadrado-gris_6"></div>
+        <div><img class="infonews" src="./imagenes nuevas/info3part3.png" alt=""></div>
+        <div class="pb-md-3 py-3">
+          <h3 class="text1 fs-6 text-sm">JONATHON DORNBUSH /</h3>
+          <h3 class="text2 fs-6 text-sm">NOVEMBER 17, 2023</h3>
         </div>
-        <h2> THE LAST OF US PART II REMASTERED COMING TO PS5 ON JANUARY 19, 2024</h2>
-        <p>Re-experience, or discover for the first time, Ellie and Abby’s emotional
+        <h2 class="anton-regular esp_1 fs-5"> THE LAST OF US PART II REMASTERED COMING TO PS5 ON JANUARY 19, 2024</h2>
+        <p class="fs-6">Re-experience, or discover for the first time, Ellie and Abby’s emotional
           journey with the definitive way to play The Last of Us Part II.</p>
       </div>
-
     </div>
-
 
     <div class="centerbotton"> <button class="Botonlastpart">
-        <h2>SEE MORE NEWS</h2>
+        <h5>SEE MORE NEWS</h5>
       </button> </div>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-interval="5">
-      <div class="carousel-inner ">
-        <div class="carousel-item active d-flex flex-row-reverse justify-content-center mb-5">
-          <div class="d-flex flex-column w-80">
-            <h6 class=" d-none d-md-block  align-self-start  ">ENTERTAINMENT WEEKLY</h6>
-            <div class="d-flex flex-row-reverse">
-          <img src="/copynaughtdog/imagenes nuevas/ellieinfo1.jpg" class="d-block imgcarrusel" alt="...">
-            <div class=" d-none d-md-block m-2 d-flex ">
-              <h2 class="cambiocolor1"> THE LAST OF US PART II WINS GAME <br> OF THE YEAR AT THE GAME AWARDS
-                </h2>
-                <p>The Last of Us Part II sweeps The Game Awards with <br> seven total wins</p>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-interval="5">
+        <div class="carousel-inner myCarousel">
+          <div class="carousel-item active d-flex flex-row-reverse justify-content-center mb-5 ">
+            <div class="d-flex flex-column w-80">
+              <h6 class=" d-none d-md-block  align-self-start  ">ENTERTAINMENT WEEKLY</h6>
+              <div class="d-flex flex-row-reverse">
+            <img src="./imagenes nuevas/ellieinfo1.jpg" class="d-block imgcarrusel" alt="...">
+              <div class=" d-none d-md-block m-2 d-flex ">
+                <h2 class="cambiocolor1"> THE LAST OF US PART II WINS GAME <br> OF THE YEAR AT THE GAME AWARDS
+                  </h2>
+                  <p>The Last of Us Part II sweeps The Game Awards with <br> seven total wins</p>
+              </div>
+            </div>
             </div>
           </div>
-          </div>
-        </div>
-        <div class="carousel-item d-flex flex-row-reverse justify-content-center mb-5">
-          <div class="d-flex flex-column w-80">
-            <h6 class=" d-none d-md-block  align-self-start  ">VARIETY </h6>
-            <div class="d-flex flex-row-reverse">
-          <img src="/copynaughtdog/imagenes nuevas/ellieinfo2.jpg" class="d-block imgcarrusel" alt="...">
-            <div class=" d-none d-md-block m-2 d-flex ">
-              <h2 class="cambiocolor1">‘THE LAST OF US’ SERIES IN <br> DEVELOPMENT AT HBO FROM <br> ‘CHERNOBYL’ CREATORl
-                </h2>
-                <p>Series adaptation being written by Naughty Dog's Neil <br> Druckmann and Craig Mazin, creator of
-                  'Chernobyl'</p>
+          <div class="carousel-item d-flex flex-row-reverse justify-content-center mb-5">
+            <div class="d-flex flex-column w-80">
+              <h6 class=" d-none d-md-block  align-self-start  ">VARIETY </h6>
+              <div class="d-flex flex-row-reverse">
+            <img src="./imagenes nuevas/ellieinfo2.jpg" class="d-block imgcarrusel" alt="...">
+              <div class=" d-none d-md-block m-2 d-flex ">
+                <h2 class="cambiocolor1">‘THE LAST OF US’ SERIES IN <br> DEVELOPMENT AT HBO FROM <br> ‘CHERNOBYL’ CREATORl
+                  </h2>
+                  <p>Series adaptation being written by Naughty Dog's Neil <br> Druckmann and Craig Mazin, creator of
+                    'Chernobyl'</p>
+              </div>
+            </div>
             </div>
           </div>
-          </div>
-        </div>
-        <div class="carousel-item d-flex flex-row-reverse justify-content-center mb-5">
-          <div class="d-flex flex-column w-80">
-            <h6 class=" d-none d-md-block  align-self-start  ">ING</h6>
-            <div class="d-flex flex-row-reverse">
-          <img src="/copynaughtdog/imagenes nuevas/ellieinfo2.jpg" class="d-block imgcarrusel" alt="...">
-            <div class=" d-none d-md-block m-2 d-flex ">
-              <h2 class="cambiocolor1">THE LAST OF US PART II IS THE <br> FASTEST-SELLING PS4 EXCLUSIVE <br> EVER
-                </h2>
-                <p>The Last of Us Part II sold over 4 million copies in its <br> first three days.</p>
+          <div class="carousel-item d-flex flex-row-reverse justify-content-center mb-5">
+            <div class="d-flex flex-column w-80">
+              <h6 class=" d-none d-md-block  align-self-start  ">ING</h6>
+              <div class="d-flex flex-row-reverse">
+            <img src="./imagenes nuevas/ellieinfo2.jpg" class="d-block imgcarrusel" alt="...">
+              <div class=" d-none d-md-block m-2 d-flex ">
+                <h2 class="cambiocolor1">THE LAST OF US PART II IS THE <br> FASTEST-SELLING PS4 EXCLUSIVE <br> EVER
+                  </h2>
+                  <p>The Last of Us Part II sold over 4 million copies in its <br> first three days.</p>
+              </div>
+            </div>
             </div>
           </div>
-          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
 
 
     <div class="partback">
-
       <div class="redes">
-
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
           class="bi bi-twitter-x redes1" viewBox="0 0 16 16">
           <path
@@ -328,13 +343,15 @@
           <p>© 2024 Sony Interactive Entertainment LLC.</p>
         </div>
         <div class="permiso politicas">
-          <div><img class="redes2" src="/copynaughtdog/IMG/permiso1.png" alt=""></div>
-          <div><img class="redes2" src="/copynaughtdog/IMG/permiso2.png" alt=""></div>
+          <div><img class="redes2" src="./IMG/permiso1.png" alt=""></div>
+          <div><img class="redes2" src="./IMG/permiso2.png" alt=""></div>
         </div>
       </footer>
     </div>
 
-</div>
-</body>
 
+    
+  </div>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
