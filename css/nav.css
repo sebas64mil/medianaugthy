@@ -1,0 +1,48 @@
+.ul1 {
+  list-style-type: none;
+  margin: 3cap;
+  padding: 0;
+  overflow: hidden;
+  background-color:  rgb(238, 238, 238);
+  float: right;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1vw;
+}
+  li {
+    float:inline-start;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1cap 2cap;
+    text-decoration: none;
+    color: black;
+  }
+
+  .li1 .a1 {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 1cap 4cap;
+    text-decoration: none;
+    background-color: rgb(93, 93, 93);
+  }
+  
+  li a:hover {
+   background-color: rgb(205, 2, 2);
+   font-weight: bold;
+  }
+
+  .li1 .a1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(205, 2, 2);
+   }
+
+  nav{
+    width: 100%;
+    float: right;   
+  }

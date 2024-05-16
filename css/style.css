@@ -1,0 +1,133 @@
+  header{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    flex-direction:row;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 90px;
+    position:fixed;
+    width: 100%;
+    z-index: 3;
+  }
+.contenedor{
+    background-image: url(/IMG/fondito1.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid; 
+    margin: 0;  
+    padding: 0;
+    width: 100%;
+}
+.lastnews{
+display: flex;
+justify-content:center;
+}
+.info1{
+  width: 50%;
+  padding: 2%;
+  position: relative;
+  margin: 2vw;
+}
+.info2{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 2%;
+  margin: 2vw;
+}
+.part3{
+  flex-direction: row;
+}
+.part3:hover{
+  background-color: rgb(238, 237, 237);
+}
+.news{
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  }
+  .part4{
+    width: 25%;
+    flex-direction: row;
+    margin: 0% 2%;
+  }
+  .part4:hover{
+    background-color: rgb(238, 237, 237);
+  }
+
+.fecha{
+  display: flex;
+  justify-content:left;
+}
+.news{
+display: flex;
+justify-content: center;
+}
+.partback{
+   align-items: flex-end;
+   margin-top: auto;
+  }
+
+.redes{
+  background-color: red;
+    display: flex;
+    align-self: center;
+    justify-content:center;
+    width: 100%;
+  }
+.permiso .redes2{
+  width:80%;
+  padding: 10px;
+}
+.permiso{
+  display: flex;
+  align-items: center;
+} 
+.politicas{
+  margin: 0% 10%;
+}
+h6{
+  padding: 1%;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.cambiocolor1:hover{
+  color: red;
+}
+
+.redes1:hover{
+
+  color: rgb(182, 180, 180);
+}
+
+.buscador{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .buscador{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .buscador1{
+   width: 100% ;
+  }
+}
+
+.titulo1{
+  margin-left: 10vw;
+}
+.titulo2{
+  -webkit-text-fill-color: rgba(255, 255, 255, 0); 
+  -webkit-text-stroke-width: 1px;
+  margin-top: -2%;
+  margin-left: 12vw;
+}

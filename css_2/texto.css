@@ -1,0 +1,24 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-style: normal; 
+    color: #333;
+  }
+  .grande {
+    font-size: 3.3vw; 
+    justify-content: space-between;
+  }
+  .mediano{
+    line-height: 1.3;
+  }
+.txt1{
+  width: 70%;
+}
+.esp_1{
+  letter-spacing: 2px;
+}
+.color{
+  color: azure;
+}

@@ -1,0 +1,13 @@
+.partback footer{
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    color: white;
+    align-items: center;
+    text-align: justify;
+}
+.partback{
+    align-items: flex-end;
+    margin-top: auto;
+   } 

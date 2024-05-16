@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding:0%;
+} 
+body{
+    background-color: white;
+    margin: 0;
+} 
+.wrapper .contenedor{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige;
+    position: relative;
+}
+.wrapper .contenedor::after {
+    content: ""; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 55vw; 
+    height: 7vw; 
+    background-color: rgb(40, 41, 43); 
+    z-index: 1; 
+  }
+  .wrapper .contenedor::before {
+    content: ""; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 63vw; 
+    height: 7vw; 
+    background-color: rgba(156, 157, 160, 0.523); 
+    z-index: 1;
+  }
+
+  .wrapper .contenedor .titulo {
+    position: absolute; 
+    bottom: -8%; /* Cambia este valor para ajustar la posición vertical */
+    left: 2%; 
+    width: 50%;
+    text-align: left;
+    color: white; 
+    font-size: 3vw;
+    z-index: 2;
+    line-height: 3.8vw;
+}
+  .wrapper .contenedor .titulo_p {
+    position: absolute; 
+    bottom: -10%; /* Cambia este valor para ajustar la posición vertical */
+    left: 2%; 
+    text-align: left;
+    color: azure;
+    z-index: 2;
+}
+  .wrapper .contenedor .imgfle {
+    position: absolute;
+    right: 37vw; 
+    width: 6vw;    
+    height: 4vw; 
+    bottom: 20px;
+    z-index: 2;
+  }
+  .wrapper .contenedor .imgfle:hover {
+    z-index: 1; 
+  }
+  .Botonlastpart{
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 1%;
+  }
+  .centerbotton{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+  }
+  .Botonlastpart:hover{
+    background-color: rgb(161, 21, 21);
+    border-color: rgb(161, 21, 21);
+  }
+
+
+  .myCarousel{
+    height: 40vh;
+
+  }

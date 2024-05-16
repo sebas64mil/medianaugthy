@@ -1,0 +1,60 @@
+.imagen-container {
+  position: relative; /* Para que los cuadrados grises estén posicionados relativamente a este contenedor */
+  display: inline-block;
+}
+.cuadrado-gris {
+  position: absolute; /* Posición absoluta para que se quede quieto con la imagen */
+  background-color: gray;
+  width: 90%; /* Ajusta el ancho según tu preferencia */
+  height: 30%; /* Ajusta la altura según tu preferencia */
+  z-index: -1; /* Asegura que los cuadrados grises estén detrás de la imagen */
+  left: -2%;
+}
+.carousel {
+  width: 100%;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 480px) {
+  .carousel-item { height: 15.8rem; }
+  .titulo_p { font-size: 4px; width: 50%; line-height: 1.5vw;}
+  .wrapper .contenedor .titulo { font-size: 15px; bottom: -4px;}
+  .contenedor { height: 21rem; display: flex; }
+  .container { height: 15rem; }
+  .wrapper .contenedor .imgfle {right: 6rem; }
+  .wrapper .contenedor::after {height:4rem; }
+  .wrapper .contenedor::before {height:4rem;}
+  .wrapper .contenedor .imgfle:hover { height: 14.5vw; }
+}
+/* Estilos para tabletas */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.carousel-item { height: 26rem; }
+.titulo_p { font-size: 1vw; width: 50%; line-height: 1.5vw;}
+.wrapper .contenedor .titulo { font-size: 3vw; bottom: -4px;}
+.contenedor { height: 26.5rem; display: flex; }
+.wrapper .contenedor .imgfle {right: 16rem; }
+.wrapper .contenedor::after {height:7rem; }
+.wrapper .contenedor::before {height:7rem;}
+.wrapper .contenedor .imgfle:hover { height: 14.5vw; }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+.carousel-item { height: 30rem; }
+.titulo_p { font-size: 1vw; width: 50%; line-height: 1.5vw;}
+.wrapper .contenedor .titulo { font-size: 4vw; bottom: 10px;}
+.contenedor { height: 30.5rem; display: flex; }
+.wrapper .contenedor .imgfle {right: 16rem; }
+.wrapper .contenedor::after {height:7rem; bottom: -5vw;}
+.wrapper .contenedor::before {height:7rem;}
+.wrapper .contenedor .imgfle:hover { height: 11vw; bottom: -5vw; }
+}
+@media (min-width: 1024px) {
+.carousel-item { height: 45rem; }
+.titulo_p { font-size: 1vw; width: 50%; line-height: 1.5vw;}
+.wrapper .contenedor .titulo { font-size: 4vw; bottom: 10px;}
+.contenedor { height: 45.5rem; display: flex; }
+.wrapper .contenedor .imgfle {right: 38vw; bottom: -2vw; }
+.wrapper .contenedor::after {height:9.8rem; bottom: -5vw;}
+.wrapper .contenedor::before {height:13rem;}
+.wrapper .contenedor .imgfle:hover { height: 11vw; bottom: -5vw; }
+.wrapper .contenedor::before {height:9.8rem; bottom: -5vw;}
+}

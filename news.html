@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtering by Tags</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+            width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="tagInput" placeholder="Enter tag" oninput="filterList()">
+
+    <div id="cardContainer">
+        <div class="card" data-tags="tag1">Item 1 (tag1)</div>
+        <div class="card" data-tags="tag2">Item 2 (tag2)</div>
+        <div class="card" data-tags="tag1 tag3">Item 3 (tag1, tag3)</div>
+        <div class="card" data-tags="tag2 tag4">Item 4 (tag2, tag4)</div>
+        <div class="card" data-tags="tag3">Item 5 (tag3)</div>
+    </div>
+
+    <script>
+        function filterList() {
+            const input = document.getElementById('tagInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.card');
+
+            cards.forEach(card => {
+                const tags = card.getAttribute('data-tags').split(' ');
+
+                if (tags.some(tag => tag.includes(input)) || input === '') {
+                    card.style.display = 'inline-block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

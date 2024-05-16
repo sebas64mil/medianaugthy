@@ -1,0 +1,87 @@
+/* Estilos para tabletas */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contenedor{width: 100%;}
+    .wrapper .contenedor::after {bottom: -50px; width: 57vw; height: 17vw;}
+    .wrapper .contenedor::before {bottom: -50px; width: 70vw;height: 17vw;}
+    .wrapper .contenedor .titulo {bottom: 30px; font-size: 4vw;}
+    .wrapper .contenedor .titulo1 {bottom: -10px; font-size: 3vw;}
+    .wrapper .contenedor .imgfle {bottom: -10px; width: 10%;}
+    .wrapper .contenedor .imgfle:hover {bottom: -50px; width: 70vw; height: 17vw;}
+
+    .lastnews{width: 100%; flex-direction: column; padding: 5%;}
+    .lastnews .imagencom{width: 100%}
+    .lastnews .info2{width: 100%}
+
+    .news{width: 100%; display: flex; justify-content: flex-start;}
+    .news .infonews{width: 100%;}
+    .news .part4{width: 100%;}
+    .lastnews .info1{width: 100%;}
+    .lastnews .info1 .part3{width: 100%;}
+    .mobile-menu {
+      display: none; /* Por defecto, oculta el icono de menú en pantallas grandes */
+    }
+}
+
+/* Estilos para moviles */
+  @media (max-width: 480px) {
+    .wrapper .cabeza {width: 100%; height: 33vw; flex-direction: column; align-items: center;}
+    .wrapper .cabeza .logo{width: 70% ; align-items: center;}
+    .wrapper .cabeza .ul1{font-size:3vw; align-items: center; width: 100%; margin: 0;}
+
+    .contenedor{margin-top: 13vw;width: 100%;}
+    .wrapper .contenedor::after {bottom: -30px; width: 57vw; height: 20vw;}
+    .wrapper .contenedor::before {bottom: -30px; width: 70vw;height: 20vw;}
+    .wrapper .contenedor .titulo {bottom: 10px; font-size: 4vw;}
+    .wrapper .contenedor .titulo1 {bottom: -10px; font-size: 3vw;}
+    .wrapper .contenedor .imgfle {bottom: -10px; width: 14%;}
+    .lastnews{width: 100%; flex-direction: column; padding: 5%;}
+    .lastnews .imagencom{width: 100%}
+    .lastnews .info2{width: 100%}
+
+    .news{width: 100%; flex-direction: column;}
+    .news .infonews{width: 100%;}
+    .news .part4{width: 100%;}
+    .lastnews .info1{width: 100%;}
+    .lastnews .info1 .part3{width: 100%;}
+
+    .partback .redes{width: 100%; align-items: center; height: 30vw;}
+    .partback .redes1{width: 30px; margin: 15px; display: flex;}
+
+    .partback footer{width: 100%; margin: 0; flex-direction: column;}
+    .partback .politicas{text-align: center;margin-top: 10px;}
+    .mobile-menu {display: none; width: 10%; /* Por defecto, oculta el icono de menú en pantallas grandes */}
+    .carousel_t{height: 60vw; margin-top: 5rem; }
+  } 
+
+  @media only screen and (max-width: 600px) {
+    /* Estilos para dispositivos móviles */
+    .ul1.nav {display: none;}
+    .ul1.nav.active {display: flex;flex-direction: column;align-items: center;}
+    .nav-item {margin-bottom: 10px;}
+    .dropdown-menu {position: static;width: auto;text-align: center;}
+    .dropdown-item {display: block;}
+    .dropdown-toggle::after,.dropdown-toggle.collapsed::after {display: none;}
+    .mobile-menu {display: flex;align-items: center;cursor: pointer;}
+    .mobile-menu span {width: 25px;height: 3px;background-color: black;margin: 5px;}
+  }
+  
+  @media only screen and (min-width: 601px) {
+    /* Estilos para pantallas de PC */
+    .mobile-menu {
+      display: none; /* Oculta el icono de menú en pantallas grandes */
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1024px) {
+    /* Estilos para laptops */
+    .lastnews .info1{width: 50%;}
+    .lastnews .info1 .part3{width: 100%;}
+    .lastnews .info2{width: 40%;}
+    .lastnews .imagencom{width: 100%}
+    .text-g{width: 65%;}
+  }
+  @media (min-width: 1024px) {
+    .text-g{width: 70%;}
+  }
+
+
